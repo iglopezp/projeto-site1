@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tutulo do site-->
+    <title>Tabuada</title>
+    <!--Link para o arquivo de estilos, codigo em css-->
+    <link rel="stylesheet" href="style-tabuada.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div>
+            <p>Numero: <input type="number" name="numero" id="num"></p>
+            <p><input  type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+        </div>
+        <div>
+            <select name="tabuada" id="tab" size="10">
+                <option>Digite um numero acima</option>
+            </select>
+            <br><input type="button" value="Reset" onclick="recarregar()">
+         
+        </div>
+    </section>
+    <footer>
+        <p>&copy; IgProjects</p>
+    </footer>
+    
+    <!--Link para o arquivo de scripts, codigo em js-->
+    <script src="script-tabuada.js"></script>
+    
+</body>
+</html>

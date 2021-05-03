@@ -1,0 +1,41 @@
+
+
+/*Cor de fundo e fonte do conteudo do elemento body*/
+body{
+    
+    background-image: linear-gradient(to right, rgb(173, 236, 236), aqua);
+    /*background-color:#50f7bf; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+}
+
+/*Cor do texto e alinhamento do conteudo do elemento header*/
+header{
+    color: darkblue;
+    text-align: center;
+    
+
+}
+
+/*Cor de fundo, borda aredondada, largura, margem auto (centralizado), e sombra da caixa do elemento section*/
+section {
+    /*background-color: rgb(240, 205, 160);*/
+    background-image: linear-gradient(to bottom, orange, rgb(238, 193, 108));
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.568) ;
+    
+}
+
+div#res{
+    text-align: center;
+}
+/*Cor do texto, alinhamento e estilo da fonte do conteudo do elemento footer*/
+footer{
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+}

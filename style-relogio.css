@@ -1,0 +1,51 @@
+
+
+/*Cor de fundo e fonte do conteudo do elemento body*/
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+
+}
+
+/*Cor do texto e alinhamento do conteudo do elemento header*/
+header{
+    color: darkblue;
+    text-align: center;
+    
+
+}
+
+/*Cor de fundo, borda aredondada, largura, margem auto (centralizado), e sombra da caixa do elemento section*/
+section {
+    background-color: rgb(240, 205, 160);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.568) ;
+    
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    /*Tira os pontos da lista*/
+    list-style: none;
+   
+}
+li {
+    
+    /*cria uma margem interna em cada item da lista*/
+    padding: 10px;
+    
+}
+
+/*Cor do texto, alinhamento e estilo da fonte do conteudo do elemento footer*/
+footer{
+    color: darkblue;
+    text-align: center;
+    font-style: italic;
+}
