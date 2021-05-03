@@ -19,31 +19,31 @@ function verificar() {
             gender = 'Homem';
             if (idade > 0 && idade <= 10) {
                 //criança
-                img.setAttribute('src','child-male.png');
+                img.setAttribute('src','/site1/img/child-male.png');
             }else if (idade <= 25){
                 //jovem
-                img.setAttribute('src', 'young-male.png');
+                img.setAttribute('src', '/site1/img/young-male.png');
             }else if (idade <= 55){
                 //adulto
-                img.setAttribute('src', 'adult-male.png');
+                img.setAttribute('src', '/site1/img/adult-male.png');
             }else {
                 //idoso
-                img.setAttribute('src', 'old-male.png');
+                img.setAttribute('src', '/site1/img/old-male.png');
             }
         } else {
             gender = 'Mulher';
             if (idade > 0 && idade <= 10) {
                 //criança
-                img.setAttribute('src', 'child-female.png');
+                img.setAttribute('src', '/site1/img/child-female.png');
             }else if (idade <= 25){
                 //jovem
-                img.setAttribute('src', 'young-female.png')
+                img.setAttribute('src', '/site1/img/young-female.png')
             }else if (idade <= 55){
                 //adulto
-                img.setAttribute('src','adult-female.png');
+                img.setAttribute('src','/site1/img/adult-female.png');
             }else {
                 //idoso
-                img.setAttribute('src', 'old-female.png');
+                img.setAttribute('src', '/site1/img/old-female.png');
             }
         }
 

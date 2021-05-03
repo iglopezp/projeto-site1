@@ -11,15 +11,15 @@ function carregar() {
     // Condiçoes para carregar imagem no relógio
     if (hora >= 0 && hora < 12){
         //bom dia 
-        photo.src = 'sunrise.png';
+        photo.src = '/site1/img/sunrise.png';
         //msg.innerHTML += ` A The World Store deseja um Bom Dia `;
     }else if (hora >= 12 && hora < 18){
         //boa tarde
-        photo.src = 'sunset.png';
+        photo.src = '/site1/img/sunset.png';
         //msg.innerHTML += ` A the World Store deseja uma Boa Tarde`;
     }else{
         //boa noite
-        photo.src = 'night.png';
+        photo.src = '/site1/img/night.png';
         //msg.innerHTML += ` A The World Store deseja uma Boa Noite`;
     }
 }
